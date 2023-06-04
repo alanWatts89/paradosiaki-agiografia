@@ -214,7 +214,7 @@ function PlasmicHeader__RenderFunc(props: {
                 projectcss.__wab_text,
                 sty.link__bhs1R
               )}
-              href={`/store`}
+              href={`/`}
             >
               {"Αρχική"}
             </a>
@@ -225,7 +225,7 @@ function PlasmicHeader__RenderFunc(props: {
                 projectcss.__wab_text,
                 sty.link__ncxfd
               )}
-              href={`/about`}
+              href={`/epik`}
             >
               {"Επικοινωνια"}
             </a>
@@ -236,7 +236,8 @@ function PlasmicHeader__RenderFunc(props: {
                 projectcss.__wab_text,
                 sty.link___9Ts33
               )}
-              href={`/faq`}
+              href={`/new-page`}
+              target={"_blank" as const}
             >
               {"Σχετικα με Εμας"}
             </a>

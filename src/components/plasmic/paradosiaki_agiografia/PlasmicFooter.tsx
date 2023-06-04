@@ -58,7 +58,8 @@ export type PlasmicFooter__OverridesType = {
   root?: p.Flex<"div">;
   h2?: p.Flex<"h2">;
   menuButton?: p.Flex<typeof MenuButton>;
-  text?: p.Flex<"div">;
+  h6?: p.Flex<"h6">;
+  link?: p.Flex<"a">;
 };
 
 export interface DefaultFooterProps {
@@ -196,114 +197,79 @@ function PlasmicFooter__RenderFunc(props: {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(projectcss.all, sty.freeBox__q385S)}
+        className={classNames(projectcss.all, sty.freeBox__sl695)}
       >
-        <p.Stack
-          as={"div"}
-          hasGap={true}
-          className={classNames(projectcss.all, sty.freeBox__xjeEi)}
-        >
-          {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
-            <MenuButton
-              data-plasmic-name={"menuButton"}
-              data-plasmic-override={overrides.menuButton}
-              className={classNames("__wab_instance", sty.menuButton)}
+        {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
+          <MenuButton
+            data-plasmic-name={"menuButton"}
+            data-plasmic-override={overrides.menuButton}
+            className={classNames("__wab_instance", sty.menuButton)}
+          />
+        ) : null}
+        {true ? (
+          <p.Stack
+            as={"div"}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.freeBox__dGv4T)}
+          >
+            <p.PlasmicImg
+              alt={""}
+              className={classNames(sty.img__rJdsX)}
+              displayHeight={"auto" as const}
+              displayMaxHeight={"none" as const}
+              displayMaxWidth={"100%" as const}
+              displayMinHeight={"0" as const}
+              displayMinWidth={"0" as const}
+              displayWidth={"112px" as const}
+              loading={"lazy" as const}
+              src={{
+                src: hhhhhpngM99EeaMm7,
+                fullWidth: 580,
+                fullHeight: 580,
+                aspectRatio: undefined
+              }}
             />
-          ) : null}
-          {true ? (
-            <p.Stack
-              as={"div"}
-              hasGap={true}
-              className={classNames(projectcss.all, sty.freeBox__y1F)}
-            >
-              <p.PlasmicImg
-                alt={""}
-                className={classNames(sty.img__qTzzx)}
-                displayHeight={"auto" as const}
-                displayMaxHeight={"none" as const}
-                displayMaxWidth={"100%" as const}
-                displayMinHeight={"0" as const}
-                displayMinWidth={"0" as const}
-                displayWidth={"112px" as const}
-                loading={"lazy" as const}
-                src={{
-                  src: hhhhhpngM99EeaMm7,
-                  fullWidth: 580,
-                  fullHeight: 580,
-                  aspectRatio: undefined
-                }}
-              />
-
-              <a
-                className={classNames(
-                  projectcss.all,
-                  projectcss.a,
-                  projectcss.__wab_text,
-                  sty.link__yeHk5
-                )}
-                href={`/store`}
-              >
-                {"Store"}
-              </a>
-              <a
-                className={classNames(
-                  projectcss.all,
-                  projectcss.a,
-                  projectcss.__wab_text,
-                  sty.link__qMnIb
-                )}
-                href={`/about`}
-              >
-                {"About"}
-              </a>
-              <a
-                className={classNames(
-                  projectcss.all,
-                  projectcss.a,
-                  projectcss.__wab_text,
-                  sty.link__ucgi
-                )}
-                href={`/faq`}
-              >
-                {"Faq"}
-              </a>
-            </p.Stack>
-          ) : null}
-          <div className={classNames(projectcss.all, sty.freeBox__i4HEv)}>
-            <div
-              data-plasmic-name={"text"}
-              data-plasmic-override={overrides.text}
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text
-              )}
-            >
-              {"© Company. All rights reserved. This site proudly built with "}
-            </div>
-            <a
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                projectcss.__wab_text,
-                sty.link__eWfbh
-              )}
-              href={"https://www.plasmic.app/" as const}
-            >
-              {"Plasmic"}
-            </a>
-          </div>
-        </p.Stack>
+          </p.Stack>
+        ) : null}
+        <h6
+          data-plasmic-name={"h6"}
+          data-plasmic-override={overrides.h6}
+          className={classNames(
+            projectcss.all,
+            projectcss.h6,
+            projectcss.__wab_text,
+            sty.h6
+          )}
+        >
+          {"Copyright © 2023 Paradosiaki-Agiografia.gr. All rights reserved."}
+        </h6>
+        <a
+          data-plasmic-name={"link"}
+          data-plasmic-override={overrides.link}
+          className={classNames(
+            projectcss.all,
+            projectcss.a,
+            projectcss.__wab_text,
+            sty.link
+          )}
+          href={`/new-page`}
+          target={"_blank" as const}
+        >
+          {hasVariant(globalVariants, "screen", "mobile")
+            ? "Σχετικα με Εμας"
+            : "Σχετικα με Εμας"}
+        </a>
       </p.Stack>
     </div>
   ) as React.ReactElement | null;
 }
 
 const PlasmicDescendants = {
-  root: ["root", "h2", "menuButton", "text"],
+  root: ["root", "h2", "menuButton", "h6", "link"],
   h2: ["h2"],
   menuButton: ["menuButton"],
-  text: ["text"]
+  h6: ["h6"],
+  link: ["link"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -312,7 +278,8 @@ type NodeDefaultElementType = {
   root: "div";
   h2: "h2";
   menuButton: typeof MenuButton;
-  text: "div";
+  h6: "h6";
+  link: "a";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -377,7 +344,8 @@ export const PlasmicFooter = Object.assign(
     // Helper components rendering sub-elements
     h2: makeNodeComponent("h2"),
     menuButton: makeNodeComponent("menuButton"),
-    text: makeNodeComponent("text"),
+    h6: makeNodeComponent("h6"),
+    link: makeNodeComponent("link"),
 
     // Metadata about props expected for PlasmicFooter
     internalVariantProps: PlasmicFooter__VariantProps,

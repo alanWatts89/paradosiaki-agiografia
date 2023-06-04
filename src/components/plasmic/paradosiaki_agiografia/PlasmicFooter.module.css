@@ -227,65 +227,27 @@
     font-weight: 600;
   }
 }
-.freeBox__q385S {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  left: auto;
-  top: auto;
-  width: 1300px;
-  height: auto;
-  align-self: center;
-  background: none;
-  padding: 2px 16px 27px;
-}
-.freeBox__q385S > :global(.__wab_flex-container) {
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  margin-top: calc(0px - 16px);
-  height: calc(100% + 16px);
-}
-.freeBox__q385S > :global(.__wab_flex-container) > *,
-.freeBox__q385S > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.freeBox__q385S > :global(.__wab_flex-container) > picture > img,
-.freeBox__q385S
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > picture
-  > img {
-  margin-top: 16px;
-}
-@media (min-width: 0px) and (max-width: 768px) {
-  .freeBox__q385S {
-    width: 100%;
-    min-width: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 768px) {
-  .freeBox__q385S > :global(.__wab_flex-container) {
-    min-width: 0;
-  }
-}
-.freeBox__xjeEi {
+.freeBox__sl695 {
   display: flex;
   width: 100%;
   height: auto;
-  margin-top: calc(0px + 16px) !important;
+  margin-top: 0px;
+  background: linear-gradient(#000000b5, #000000b5),
+    url("./images/casofriCleanArtistWorkshopOfAByzantineHagiographerPlentEe3Dc471Debd4Ba5Ad9E11Eb4Cd584Fapng.png") top 50% left 50% / cover repeat;
   min-width: 0;
-  padding: 50px 0px 0px;
+  padding: 8px 0px 0px;
 }
-.freeBox__xjeEi > :global(.__wab_flex-container) {
+.freeBox__sl695 > :global(.__wab_flex-container) {
   justify-content: space-between;
   align-items: center;
   min-width: 0;
   margin-left: calc(0px - 5px);
   width: calc(100% + 5px);
 }
-.freeBox__xjeEi > :global(.__wab_flex-container) > *,
-.freeBox__xjeEi > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.freeBox__xjeEi > :global(.__wab_flex-container) > picture > img,
-.freeBox__xjeEi
+.freeBox__sl695 > :global(.__wab_flex-container) > *,
+.freeBox__sl695 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__sl695 > :global(.__wab_flex-container) > picture > img,
+.freeBox__sl695
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
@@ -293,17 +255,17 @@
   margin-left: 5px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .freeBox__xjeEi {
+  .freeBox__sl695 {
     display: flex;
     width: 100%;
     height: auto;
-    margin-top: calc(0px + 16px) !important;
+    margin-top: 0px;
     min-width: 0;
     padding: 16px 5px;
   }
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .freeBox__xjeEi > :global(.__wab_flex-container) {
+  .freeBox__sl695 > :global(.__wab_flex-container) {
     justify-content: space-between;
     align-items: stretch;
     flex-wrap: wrap;
@@ -313,10 +275,10 @@
   }
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .freeBox__xjeEi > :global(.__wab_flex-container) > *,
-  .freeBox__xjeEi > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-  .freeBox__xjeEi > :global(.__wab_flex-container) > picture > img,
-  .freeBox__xjeEi
+  .freeBox__sl695 > :global(.__wab_flex-container) > *,
+  .freeBox__sl695 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .freeBox__sl695 > :global(.__wab_flex-container) > picture > img,
+  .freeBox__sl695
     > :global(.__wab_flex-container)
     > :global(.__wab_slot)
     > picture
@@ -336,7 +298,7 @@
     display: none;
   }
 }
-.freeBox__y1F {
+.freeBox__dGv4T {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -345,17 +307,17 @@
   max-width: 100%;
   padding: 8px;
 }
-.freeBox__y1F > :global(.__wab_flex-container) {
+.freeBox__dGv4T > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   margin-left: calc(0px - 40px);
   width: calc(100% + 40px);
 }
-.freeBox__y1F > :global(.__wab_flex-container) > *,
-.freeBox__y1F > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.freeBox__y1F > :global(.__wab_flex-container) > picture > img,
-.freeBox__y1F
+.freeBox__dGv4T > :global(.__wab_flex-container) > *,
+.freeBox__dGv4T > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__dGv4T > :global(.__wab_flex-container) > picture > img,
+.freeBox__dGv4T
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
@@ -363,13 +325,13 @@
   margin-left: 40px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .freeBox__y1F {
+  .freeBox__dGv4T {
     width: 100%;
     min-width: 0;
   }
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .freeBox__y1F > :global(.__wab_flex-container) {
+  .freeBox__dGv4T > :global(.__wab_flex-container) {
     flex-wrap: wrap;
     align-items: stretch;
     align-content: flex-start;
@@ -377,105 +339,56 @@
     min-width: 0;
   }
 }
-.img__qTzzx {
+.img__rJdsX {
   position: relative;
   object-fit: cover;
   max-width: 100%;
   width: 112px;
   flex-shrink: 0;
 }
-.img__qTzzx > picture > img {
+.img__rJdsX > picture > img {
   object-fit: cover;
 }
-.img__qTzzx > :global(.__wab_img-spacer) > img {
+.img__rJdsX > :global(.__wab_img-spacer) > img {
   object-fit: cover;
 }
-.link__yeHk5 {
-  color: var(--token-y3I9R5KEKXPofC);
+.h6 {
+  color: var(--token-X1jDnyWGByQLrV);
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
   position: relative;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .link__yeHk5 {
+  .h6 {
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 600;
-    color: var(--token-y3I9R5KEKXPofC);
+    color: var(--token-X1jDnyWGByQLrV);
+    text-align: center;
+    padding: 29px;
   }
 }
-.link__qMnIb {
-  color: var(--token-y3I9R5KEKXPofC);
+.link {
+  color: var(--token-X1jDnyWGByQLrV);
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: 600;
   position: relative;
+  padding: 16px 32px 0px 0px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .link__qMnIb {
-    font-size: 16px;
-  }
-}
-.link__ucgi {
-  color: var(--token-y3I9R5KEKXPofC);
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-  position: relative;
-}
-@media (min-width: 0px) and (max-width: 768px) {
-  .link__ucgi {
+  .link {
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 600;
-    color: var(--token-y3I9R5KEKXPofC);
+    color: var(--token-X1jDnyWGByQLrV);
+    text-align: center;
+    align-self: center;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: calc(144px + 5px) !important;
+    padding-bottom: 16px;
   }
-}
-.freeBox__i4HEv {
-  display: flex;
-  position: relative;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-@media (min-width: 0px) and (max-width: 768px) {
-  .freeBox__i4HEv {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
-    min-width: 0;
-  }
-}
-.text {
-  position: relative;
-  color: var(--token-y3I9R5KEKXPofC);
-  font-size: 20px;
-  text-align: left;
-  font-weight: 500;
-}
-@media (min-width: 0px) and (max-width: 768px) {
-  .text {
-    font-size: 12px;
-    width: auto;
-  }
-}
-.link__eWfbh {
-  position: relative;
-  color: var(--token-0u6JY7pvjlO5TD);
-  font-size: 20px;
-  font-weight: 500;
-  text-align: left;
-}
-@media (min-width: 0px) and (max-width: 768px) {
-  .link__eWfbh {
-    font-size: 12px;
-    width: auto;
-  }
-}
-.root .link__eWfbh:hover {
-  text-decoration-line: underline;
 }

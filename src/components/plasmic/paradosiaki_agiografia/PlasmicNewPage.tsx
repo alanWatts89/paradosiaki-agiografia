@@ -33,6 +33,10 @@ import {
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import Header from "../../Header"; // plasmic-import: wS2ddgETNt58W/component
+import Button from "../../Button"; // plasmic-import: kC2F6N1O7TYTuM/component
+import MenuButton from "../../MenuButton"; // plasmic-import: 3IYrK-BAkdyFM-/component
+
+import { useScreenVariants as useScreenVariantsgW35LCmK5FyoDz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: gW35LCmK5FYODz/globalVariant
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 
@@ -40,7 +44,10 @@ import plasmic_library_plasmic_color_type_css from "../library_plasmic_color_typ
 import projectcss from "./plasmic_paradosiaki_agiografia.module.css"; // plasmic-import: poSKmt1KMDoYUF6h3Y78GP/projectcss
 import sty from "./PlasmicNewPage.module.css"; // plasmic-import: iDHH7o37f0/css
 
+import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: CXbqs2YSSg-hSz/icon
+import ButtonArrowIcon from "./icons/PlasmicIcon__ButtonArrow"; // plasmic-import: PBYxdjRw4Gq0L2/icon
 import panospngPkImJjd9Q from "./images/panospng.png"; // plasmic-import: PKImJjd9q/picture
+import hhhhhpngM99EeaMm7 from "./images/hhhhhpng.png"; // plasmic-import: m99EeaMM7/picture
 
 export type PlasmicNewPage__VariantMembers = {};
 export type PlasmicNewPage__VariantsArgs = {};
@@ -54,7 +61,12 @@ export const PlasmicNewPage__ArgProps = new Array<ArgPropType>();
 export type PlasmicNewPage__OverridesType = {
   root?: p.Flex<"div">;
   header?: p.Flex<typeof Header>;
-  img?: p.Flex<typeof p.PlasmicImg>;
+  button?: p.Flex<typeof Button>;
+  text?: p.Flex<"div">;
+  svg?: p.Flex<"svg">;
+  menuButton?: p.Flex<typeof MenuButton>;
+  h6?: p.Flex<"h6">;
+  link?: p.Flex<"a">;
 };
 
 export interface DefaultNewPageProps {
@@ -89,6 +101,10 @@ function PlasmicNewPage__RenderFunc(props: {
   const currentUser = p.useCurrentUser?.() || {};
 
   const [$queries, setDollarQueries] = React.useState({});
+
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariantsgW35LCmK5FyoDz()
+  });
 
   return (
     <React.Fragment>
@@ -133,10 +149,8 @@ function PlasmicNewPage__RenderFunc(props: {
               {"Σχετικά Με Εμάς"}
             </h1>
             <p.PlasmicImg
-              data-plasmic-name={"img"}
-              data-plasmic-override={overrides.img}
               alt={""}
-              className={classNames(sty.img)}
+              className={classNames(sty.img__xTmao)}
               displayHeight={"auto" as const}
               displayMaxHeight={"none" as const}
               displayMaxWidth={"100%" as const}
@@ -164,7 +178,100 @@ function PlasmicNewPage__RenderFunc(props: {
                 "Γεια σας είμαι ο Παναγιώτης και ασχολούμαι ερασιτεχνικά με την αγιογραφία. Αγαπώ ιδιαίτερα αυτό που κάνω γιατί η ενασχόληση του με οδηγεί στον μυστηριακό κόσμο των εικόνων. Λατρεύω την συμβολική γλώσσα τους καθώς και την ηρεμία που μου χαρίζει αυτή μου η ενασχόληση. Εάν θέλετε μπορείτε να επικοινωνήσετε μαζί μου στο panos@paradosiaki-agiografia.gr"
               }
             </h1>
+            <Button
+              data-plasmic-name={"button"}
+              data-plasmic-override={overrides.button}
+              className={classNames("__wab_instance", sty.button)}
+              link={`/`}
+              submitsForm={true}
+            >
+              <div
+                data-plasmic-name={"text"}
+                data-plasmic-override={overrides.text}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text
+                )}
+              >
+                {"Eπιστροφή Στην Αρχική"}
+              </div>
+              <ButtonArrowIcon
+                data-plasmic-name={"svg"}
+                data-plasmic-override={overrides.svg}
+                className={classNames(projectcss.all, sty.svg)}
+                role={"img"}
+              />
+            </Button>
           </div>
+          <p.Stack
+            as={"div"}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.freeBox__xpKhO)}
+          >
+            {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
+              <MenuButton
+                data-plasmic-name={"menuButton"}
+                data-plasmic-override={overrides.menuButton}
+                className={classNames("__wab_instance", sty.menuButton)}
+              />
+            ) : null}
+            {true ? (
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.freeBox__sjRgx)}
+              >
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img__rsynz)}
+                  displayHeight={"auto" as const}
+                  displayMaxHeight={"none" as const}
+                  displayMaxWidth={"100%" as const}
+                  displayMinHeight={"0" as const}
+                  displayMinWidth={"0" as const}
+                  displayWidth={"112px" as const}
+                  loading={"lazy" as const}
+                  src={{
+                    src: hhhhhpngM99EeaMm7,
+                    fullWidth: 580,
+                    fullHeight: 580,
+                    aspectRatio: undefined
+                  }}
+                />
+              </p.Stack>
+            ) : null}
+            <h6
+              data-plasmic-name={"h6"}
+              data-plasmic-override={overrides.h6}
+              className={classNames(
+                projectcss.all,
+                projectcss.h6,
+                projectcss.__wab_text,
+                sty.h6
+              )}
+            >
+              {
+                "Copyright © 2023 Paradosiaki-Agiografia.gr. All rights reserved."
+              }
+            </h6>
+            <a
+              data-plasmic-name={"link"}
+              data-plasmic-override={overrides.link}
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                projectcss.__wab_text,
+                sty.link
+              )}
+              href={`/new-page`}
+              target={"_blank" as const}
+            >
+              {hasVariant(globalVariants, "screen", "mobile")
+                ? "Σχετικα με Εμας"
+                : "Σχετικα με Εμας"}
+            </a>
+          </p.Stack>
         </div>
       </div>
     </React.Fragment>
@@ -172,9 +279,14 @@ function PlasmicNewPage__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "header", "img"],
+  root: ["root", "header", "button", "text", "svg", "menuButton", "h6", "link"],
   header: ["header"],
-  img: ["img"]
+  button: ["button", "text", "svg"],
+  text: ["text"],
+  svg: ["svg"],
+  menuButton: ["menuButton"],
+  h6: ["h6"],
+  link: ["link"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -182,7 +294,12 @@ type DescendantsType<T extends NodeNameType> =
 type NodeDefaultElementType = {
   root: "div";
   header: typeof Header;
-  img: typeof p.PlasmicImg;
+  button: typeof Button;
+  text: "div";
+  svg: "svg";
+  menuButton: typeof MenuButton;
+  h6: "h6";
+  link: "a";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -246,7 +363,12 @@ export const PlasmicNewPage = Object.assign(
   {
     // Helper components rendering sub-elements
     header: makeNodeComponent("header"),
-    img: makeNodeComponent("img"),
+    button: makeNodeComponent("button"),
+    text: makeNodeComponent("text"),
+    svg: makeNodeComponent("svg"),
+    menuButton: makeNodeComponent("menuButton"),
+    h6: makeNodeComponent("h6"),
+    link: makeNodeComponent("link"),
 
     // Metadata about props expected for PlasmicNewPage
     internalVariantProps: PlasmicNewPage__VariantProps,

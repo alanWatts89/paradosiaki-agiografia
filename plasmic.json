@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "files",
@@ -32,7 +32,8 @@
       "images": [],
       "indirect": true,
       "globalContextsFilePath": "",
-      "codeComponents": []
+      "codeComponents": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "poSKmt1KMDoYUF6h3Y78GP",
@@ -312,6 +313,19 @@
             "modulePath": "NewPage.tsx"
           },
           "cssFilePath": "plasmic/paradosiaki_agiografia/PlasmicNewPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "dFSgMpt5T8",
+          "name": "Epik",
+          "type": "managed",
+          "projectId": "poSKmt1KMDoYUF6h3Y78GP",
+          "renderModuleFilePath": "plasmic/paradosiaki_agiografia/PlasmicEpik.tsx",
+          "importSpec": {
+            "modulePath": "Epik.tsx"
+          },
+          "cssFilePath": "plasmic/paradosiaki_agiografia/PlasmicEpik.module.css",
           "scheme": "blackbox",
           "componentType": "page"
         }
