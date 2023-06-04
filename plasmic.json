@@ -1,0 +1,884 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "seaQhLVS4bbjiGvJJrRwyL",
+      "projectApiToken": "nPw276qGsy9kISQCHrcRrsj3Y9Yva9TMyYKNUpoOMOHgRj1A51qOC6LMB2185QlA52K87n32oQJHSi5be9w",
+      "projectName": "LIBRARY Plasmic Color + Type",
+      "version": "15.0.3",
+      "cssFilePath": "plasmic/library_plasmic_color_type/plasmic_library_plasmic_color_type.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    },
+    {
+      "projectId": "poSKmt1KMDoYUF6h3Y78GP",
+      "projectApiToken": "0QKUE0kkyzPiaywfKduxzLHHN3zQN8Of8Klp1Cg59TDHPQwVzxbQ2DbWgH1FF1D0t4fIRr2vge8wh6hclf4wA",
+      "projectName": "paradosiaki-agiografia",
+      "version": "latest",
+      "cssFilePath": "plasmic/paradosiaki_agiografia/plasmic_paradosiaki_agiografia.module.css",
+      "components": [
+        {
+          "id": "CLQCtcSPhDgmH",
+          "name": "Home",
+          "type": "managed",
+          "projectId": "poSKmt1KMDoYUF6h3Y78GP",
+          "renderModuleFilePath": "plasmic/paradosiaki_agiografia/PlasmicHome.tsx",
+          "importSpec": {
+            "modulePath": "Home.tsx"
+          },
+          "cssFilePath": "plasmic/paradosiaki_agiografia/PlasmicHome.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "wS2ddgETNt58W",
+          "name": "Header",
+          "type": "managed",
+          "projectId": "poSKmt1KMDoYUF6h3Y78GP",
+          "renderModuleFilePath": "plasmic/paradosiaki_agiografia/PlasmicHeader.tsx",
+          "importSpec": {
+            "modulePath": "Header.tsx"
+          },
+          "cssFilePath": "plasmic/paradosiaki_agiografia/PlasmicHeader.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "d3WHbEehslF7mk",
+          "name": "Footer",
+          "type": "managed",
+          "projectId": "poSKmt1KMDoYUF6h3Y78GP",
+          "renderModuleFilePath": "plasmic/paradosiaki_agiografia/PlasmicFooter.tsx",
+          "importSpec": {
+            "modulePath": "Footer.tsx"
+          },
+          "cssFilePath": "plasmic/paradosiaki_agiografia/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "6yeDc8BOoSwsCq",
+          "name": "FeatureItem",
+          "type": "managed",
+          "projectId": "poSKmt1KMDoYUF6h3Y78GP",
+          "renderModuleFilePath": "plasmic/paradosiaki_agiografia/PlasmicFeatureItem.tsx",
+          "importSpec": {
+            "modulePath": "FeatureItem.tsx"
+          },
+          "cssFilePath": "plasmic/paradosiaki_agiografia/PlasmicFeatureItem.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "I9bSXDVKP-_xia",
+          "name": "ProductCard",
+          "type": "managed",
+          "projectId": "poSKmt1KMDoYUF6h3Y78GP",
+          "renderModuleFilePath": "plasmic/paradosiaki_agiografia/PlasmicProductCard.tsx",
+          "importSpec": {
+            "modulePath": "ProductCard.tsx"
+          },
+          "cssFilePath": "plasmic/paradosiaki_agiografia/PlasmicProductCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "DXgycBklpJeLWb",
+          "name": "LinkButton",
+          "type": "managed",
+          "projectId": "poSKmt1KMDoYUF6h3Y78GP",
+          "renderModuleFilePath": "plasmic/paradosiaki_agiografia/PlasmicLinkButton.tsx",
+          "importSpec": {
+            "modulePath": "LinkButton.tsx"
+          },
+          "cssFilePath": "plasmic/paradosiaki_agiografia/PlasmicLinkButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "zYgNRGyV2nOzdl",
+          "name": "IconLink",
+          "type": "managed",
+          "projectId": "poSKmt1KMDoYUF6h3Y78GP",
+          "renderModuleFilePath": "plasmic/paradosiaki_agiografia/PlasmicIconLink.tsx",
+          "importSpec": {
+            "modulePath": "IconLink.tsx"
+          },
+          "cssFilePath": "plasmic/paradosiaki_agiografia/PlasmicIconLink.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "3IYrK-BAkdyFM-",
+          "name": "MenuButton",
+          "type": "managed",
+          "projectId": "poSKmt1KMDoYUF6h3Y78GP",
+          "renderModuleFilePath": "plasmic/paradosiaki_agiografia/PlasmicMenuButton.tsx",
+          "importSpec": {
+            "modulePath": "MenuButton.tsx"
+          },
+          "cssFilePath": "plasmic/paradosiaki_agiografia/PlasmicMenuButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "XtW6OFg7bRL4Bi",
+          "name": "BlogPost",
+          "type": "managed",
+          "projectId": "poSKmt1KMDoYUF6h3Y78GP",
+          "renderModuleFilePath": "plasmic/paradosiaki_agiografia/PlasmicBlogPost.tsx",
+          "importSpec": {
+            "modulePath": "BlogPost.tsx"
+          },
+          "cssFilePath": "plasmic/paradosiaki_agiografia/PlasmicBlogPost.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "RJoD3U13gzPVxR",
+          "name": "Ratings",
+          "type": "managed",
+          "projectId": "poSKmt1KMDoYUF6h3Y78GP",
+          "renderModuleFilePath": "plasmic/paradosiaki_agiografia/PlasmicRatings.tsx",
+          "importSpec": {
+            "modulePath": "Ratings.tsx"
+          },
+          "cssFilePath": "plasmic/paradosiaki_agiografia/PlasmicRatings.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "gHHUVS8JC8e0nC",
+          "name": "ProductCarousel",
+          "type": "managed",
+          "projectId": "poSKmt1KMDoYUF6h3Y78GP",
+          "renderModuleFilePath": "plasmic/paradosiaki_agiografia/PlasmicProductCarousel.tsx",
+          "importSpec": {
+            "modulePath": "ProductCarousel.tsx"
+          },
+          "cssFilePath": "plasmic/paradosiaki_agiografia/PlasmicProductCarousel.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "kC2F6N1O7TYTuM",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "poSKmt1KMDoYUF6h3Y78GP",
+          "renderModuleFilePath": "plasmic/paradosiaki_agiografia/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/paradosiaki_agiografia/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "FaWqiAMedvRmIf",
+          "name": "ProductRow",
+          "type": "managed",
+          "projectId": "poSKmt1KMDoYUF6h3Y78GP",
+          "renderModuleFilePath": "plasmic/paradosiaki_agiografia/PlasmicProductRow.tsx",
+          "importSpec": {
+            "modulePath": "ProductRow.tsx"
+          },
+          "cssFilePath": "plasmic/paradosiaki_agiografia/PlasmicProductRow.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Ujl5y4BszvbjIC",
+          "name": "Store",
+          "type": "managed",
+          "projectId": "poSKmt1KMDoYUF6h3Y78GP",
+          "renderModuleFilePath": "plasmic/paradosiaki_agiografia/PlasmicStore.tsx",
+          "importSpec": {
+            "modulePath": "Store.tsx"
+          },
+          "cssFilePath": "plasmic/paradosiaki_agiografia/PlasmicStore.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "hz3fKOWkD_JODa",
+          "name": "Header2",
+          "type": "managed",
+          "projectId": "poSKmt1KMDoYUF6h3Y78GP",
+          "renderModuleFilePath": "plasmic/paradosiaki_agiografia/PlasmicHeader2.tsx",
+          "importSpec": {
+            "modulePath": "Header2.tsx"
+          },
+          "cssFilePath": "plasmic/paradosiaki_agiografia/PlasmicHeader2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "qPy7G3cEouv854",
+          "name": "Faq",
+          "type": "managed",
+          "projectId": "poSKmt1KMDoYUF6h3Y78GP",
+          "renderModuleFilePath": "plasmic/paradosiaki_agiografia/PlasmicFaq.tsx",
+          "importSpec": {
+            "modulePath": "Faq.tsx"
+          },
+          "cssFilePath": "plasmic/paradosiaki_agiografia/PlasmicFaq.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "dUvG-fZ7urLMpv",
+          "name": "AboutUs",
+          "type": "managed",
+          "projectId": "poSKmt1KMDoYUF6h3Y78GP",
+          "renderModuleFilePath": "plasmic/paradosiaki_agiografia/PlasmicAboutUs.tsx",
+          "importSpec": {
+            "modulePath": "AboutUs.tsx"
+          },
+          "cssFilePath": "plasmic/paradosiaki_agiografia/PlasmicAboutUs.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "HagOdd05IW3mVN",
+          "name": "FaqFooter",
+          "type": "managed",
+          "projectId": "poSKmt1KMDoYUF6h3Y78GP",
+          "renderModuleFilePath": "plasmic/paradosiaki_agiografia/PlasmicFaqFooter.tsx",
+          "importSpec": {
+            "modulePath": "FaqFooter.tsx"
+          },
+          "cssFilePath": "plasmic/paradosiaki_agiografia/PlasmicFaqFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "S1tKN1eDywa13q",
+          "name": "SinglePage",
+          "type": "managed",
+          "projectId": "poSKmt1KMDoYUF6h3Y78GP",
+          "renderModuleFilePath": "plasmic/paradosiaki_agiografia/PlasmicSinglePage.tsx",
+          "importSpec": {
+            "modulePath": "SinglePage.tsx"
+          },
+          "cssFilePath": "plasmic/paradosiaki_agiografia/PlasmicSinglePage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "5VQg_KfaOv11TI",
+          "name": "Header3",
+          "type": "managed",
+          "projectId": "poSKmt1KMDoYUF6h3Y78GP",
+          "renderModuleFilePath": "plasmic/paradosiaki_agiografia/PlasmicHeader3.tsx",
+          "importSpec": {
+            "modulePath": "Header3.tsx"
+          },
+          "cssFilePath": "plasmic/paradosiaki_agiografia/PlasmicHeader3.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "iDHH7o37f0",
+          "name": "NewPage",
+          "type": "managed",
+          "projectId": "poSKmt1KMDoYUF6h3Y78GP",
+          "renderModuleFilePath": "plasmic/paradosiaki_agiografia/PlasmicNewPage.tsx",
+          "importSpec": {
+            "modulePath": "NewPage.tsx"
+          },
+          "cssFilePath": "plasmic/paradosiaki_agiografia/PlasmicNewPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "YNatrqfDuB56FV",
+          "name": "SearchIcon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__Search.tsx"
+        },
+        {
+          "id": "Q9BcDsVdbe2-XO",
+          "name": "CogIcon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__Cog.tsx"
+        },
+        {
+          "id": "-XMpoBt_8zALJy",
+          "name": "ShoppingCartIcon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__ShoppingCart.tsx"
+        },
+        {
+          "id": "MTa9PrL2IcYUe1",
+          "name": "TimesIcon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__Times.tsx"
+        },
+        {
+          "id": "0PlppIxS8pstM8",
+          "name": "BarsIcon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__Bars.tsx"
+        },
+        {
+          "id": "yWX-ZtDkJP_lt7",
+          "name": "LogoIcon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__Logo.tsx"
+        },
+        {
+          "id": "prKmFXl2VUPKyi",
+          "name": "SphereIcon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__Sphere.tsx"
+        },
+        {
+          "id": "746BzrlkW9VE4t",
+          "name": "FacebookIcon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__Facebook.tsx"
+        },
+        {
+          "id": "bk0mrEWqDWJhr2",
+          "name": "InstagramIcon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__Instagram.tsx"
+        },
+        {
+          "id": "wgkC1EjZWYA64A",
+          "name": "LinkedinIcon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__Linkedin.tsx"
+        },
+        {
+          "id": "NioqYkW7bwIWg8",
+          "name": "LocationArrowIcon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__LocationArrow.tsx"
+        },
+        {
+          "id": "o2tfco2a-r7V5C",
+          "name": "StarOIcon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__StarO.tsx"
+        },
+        {
+          "id": "kSLvqA7p5fYPgA",
+          "name": "StarIcon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__Star.tsx"
+        },
+        {
+          "id": "Oj1Vms6kuf3e6x",
+          "name": "ExpandIcon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__Expand.tsx"
+        },
+        {
+          "id": "U5xOQ4LCcQ0qSj",
+          "name": "HeartOIcon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__HeartO.tsx"
+        },
+        {
+          "id": "EzJBJEGXuf3HeO",
+          "name": "DotCircleOIcon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__DotCircleO.tsx"
+        },
+        {
+          "id": "VP6xV8qI_SCHDN",
+          "name": "CircleOIcon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__CircleO.tsx"
+        },
+        {
+          "id": "CXbqs2YSSg-hSz",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "_Lzag9I0QwGeoY",
+          "name": "LogoWhitesvgIcon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__LogoWhitesvg.tsx"
+        },
+        {
+          "id": "PBYxdjRw4Gq0L2",
+          "name": "ButtonArrowIcon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__ButtonArrow.tsx"
+        },
+        {
+          "id": "0meV-jpaRXVkA-",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "um22obSw4xOfIe",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "-xYff7-eV79M4G",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__Icon3.tsx"
+        },
+        {
+          "id": "duX9dxR5_6mt81",
+          "name": "QuotessvgIcon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__Quotessvg.tsx"
+        },
+        {
+          "id": "gvgoFtwQguIARd",
+          "name": "Logo4SvgIcon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__Logo4Svg.tsx"
+        },
+        {
+          "id": "VR1LMzhnpQ1BTW",
+          "name": "Icon4Icon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__Icon4.tsx"
+        },
+        {
+          "id": "q4el-sBR3sln1M",
+          "name": "DotSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__DotSvgrepoComsvg.tsx"
+        },
+        {
+          "id": "5vdIMDqkJMyTrx",
+          "name": "DotSvgrepoCom1SvgIcon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__DotSvgrepoCom1Svg.tsx"
+        },
+        {
+          "id": "BVNHXdbr1SzKgq",
+          "name": "LocationSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__LocationSvgrepoComsvg.tsx"
+        },
+        {
+          "id": "QiUB2iFrqDBwwz",
+          "name": "LocationSvgrepoCom1SvgIcon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__LocationSvgrepoCom1Svg.tsx"
+        },
+        {
+          "id": "Xir3yn2VH_uHRD",
+          "name": "LeftArrowSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/paradosiaki_agiografia/icons/PlasmicIcon__LeftArrowSvgrepoComsvg.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "FRCrAgZQlvMsWU",
+          "name": "plasmic",
+          "filePath": "plasmic/paradosiaki_agiografia/images/plasmic.png"
+        },
+        {
+          "id": "NARNKE4_I0KD_H",
+          "name": "adidas",
+          "filePath": "plasmic/paradosiaki_agiografia/images/adidas.png"
+        },
+        {
+          "id": "zLZHFken3etDtf",
+          "name": "hm",
+          "filePath": "plasmic/paradosiaki_agiografia/images/hm.png"
+        },
+        {
+          "id": "1jEXpQ77xoIuTh",
+          "name": "kappa",
+          "filePath": "plasmic/paradosiaki_agiografia/images/kappa.png"
+        },
+        {
+          "id": "Ji0l_z159-3W10",
+          "name": "lacoste",
+          "filePath": "plasmic/paradosiaki_agiografia/images/lacoste.png"
+        },
+        {
+          "id": "r9mIrqDLMzq_oq",
+          "name": "levis",
+          "filePath": "plasmic/paradosiaki_agiografia/images/levis.png"
+        },
+        {
+          "id": "ElV8nLvtMMEbJk",
+          "name": "b1",
+          "filePath": "plasmic/paradosiaki_agiografia/images/b1.jpg"
+        },
+        {
+          "id": "CIXwhWWe0bHWc5",
+          "name": "b2",
+          "filePath": "plasmic/paradosiaki_agiografia/images/b2.jpg"
+        },
+        {
+          "id": "c-6epQZQg4ZOkm",
+          "name": "b3",
+          "filePath": "plasmic/paradosiaki_agiografia/images/b3.jpg"
+        },
+        {
+          "id": "8160giZTF60vRV",
+          "name": "f1",
+          "filePath": "plasmic/paradosiaki_agiografia/images/f1.jpg"
+        },
+        {
+          "id": "hWMyZLVdy36Uxv",
+          "name": "f2",
+          "filePath": "plasmic/paradosiaki_agiografia/images/f2.jpg"
+        },
+        {
+          "id": "CyKTK6oS2HjTFN",
+          "name": "f3",
+          "filePath": "plasmic/paradosiaki_agiografia/images/f3.jpg"
+        },
+        {
+          "id": "MJjaldZdX2J0Ba",
+          "name": "f4",
+          "filePath": "plasmic/paradosiaki_agiografia/images/f4.jpg"
+        },
+        {
+          "id": "GfGsvIYnQp45vp",
+          "name": "table-banner",
+          "filePath": "plasmic/paradosiaki_agiografia/images/tableBanner.jpg"
+        },
+        {
+          "id": "l7Hbf6AbQsSvUb",
+          "name": "arrivals1",
+          "filePath": "plasmic/paradosiaki_agiografia/images/arrivals1.png"
+        },
+        {
+          "id": "XNEaNpjWA6vQ4n",
+          "name": "arrivals2",
+          "filePath": "plasmic/paradosiaki_agiografia/images/arrivals2.png"
+        },
+        {
+          "id": "6ddTCr-GgipX4t",
+          "name": "arrivals3",
+          "filePath": "plasmic/paradosiaki_agiografia/images/arrivals3.png"
+        },
+        {
+          "id": "hDm7tIuk1VtSun",
+          "name": "arrivals4",
+          "filePath": "plasmic/paradosiaki_agiografia/images/arrivals4.png"
+        },
+        {
+          "id": "5zvNVtxL9FnQyp",
+          "name": "arrivals5",
+          "filePath": "plasmic/paradosiaki_agiografia/images/arrivals5.png"
+        },
+        {
+          "id": "HVzBxB7o7c1EqM",
+          "name": "arrivals6",
+          "filePath": "plasmic/paradosiaki_agiografia/images/arrivals6.png"
+        },
+        {
+          "id": "unn4BCvMAyr28G",
+          "name": "arrivals7",
+          "filePath": "plasmic/paradosiaki_agiografia/images/arrivals7.png"
+        },
+        {
+          "id": "OFKAXn8odtXnWb",
+          "name": "arrivals8",
+          "filePath": "plasmic/paradosiaki_agiografia/images/arrivals8.png"
+        },
+        {
+          "id": "HVt_WVnXCf2vFr",
+          "name": "slider1",
+          "filePath": "plasmic/paradosiaki_agiografia/images/slider1.png"
+        },
+        {
+          "id": "IPCP6J_es0PODZ",
+          "name": "slider2",
+          "filePath": "plasmic/paradosiaki_agiografia/images/slider2.png"
+        },
+        {
+          "id": "OznqTaW-ddivFY",
+          "name": "slider3",
+          "filePath": "plasmic/paradosiaki_agiografia/images/slider3.png"
+        },
+        {
+          "id": "oJWFfndpO_YEwf",
+          "name": "pawel-czerwinski-qzaIDFtzcZ0-unsplash.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/pawelCzerwinskiQzaIdFtzcZ0Unsplashjpg.jpg"
+        },
+        {
+          "id": "WtM-6JCSKAxYfm",
+          "name": "sabrina-mazzeo-5jvYp-BjzQA-unsplash.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/sabrinaMazzeo5JvYpBjzQaUnsplashjpg.jpg"
+        },
+        {
+          "id": "JqdK-rQlpb_ZEj",
+          "name": "annie-spratt-VDXtVYJVj7A-unsplash.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/annieSprattVdXtVyjVj7AUnsplashjpg.jpg"
+        },
+        {
+          "id": "sFpEF5waPilsy6",
+          "name": "yavor-punchev-iSHwa3EaMlo-unsplash.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/yavorPunchevISHwa3EaMloUnsplashjpg.jpg"
+        },
+        {
+          "id": "Oj5FljDOxLgsNC",
+          "name": "galina-n-miziNqvJx5M-unsplash.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/galinaNMiziNqvJx5MUnsplashjpg.jpg"
+        },
+        {
+          "id": "dCWmzzZg7Jm1MA",
+          "name": "igor-son-FV_PxCqgtwc-unsplash.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/igorSonFvPxCqgtwcUnsplashjpg.jpg"
+        },
+        {
+          "id": "K9b4OE5CUewWZ9",
+          "name": "scott-webb-oRWRlTgBrPo-unsplash.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/scottWebbORwRlTgBrPoUnsplashjpg.jpg"
+        },
+        {
+          "id": "SBkLuiwh-6wxZe",
+          "name": "freddie-marriage-UcfKYTan-LU-unsplash.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/freddieMarriageUcfKyTanLuUnsplashjpg.jpg"
+        },
+        {
+          "id": "0rIP8Ze7g5rRN1",
+          "name": "header (1).jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/header1Jpg.png"
+        },
+        {
+          "id": "Hp3Z_V4gp2UTKX",
+          "name": "plant1-featured.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/plant1Featuredjpg.png"
+        },
+        {
+          "id": "DluLXUpZ-JD9j3",
+          "name": "plant2-featured.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/plant2Featuredjpg.png"
+        },
+        {
+          "id": "9mEghLDIFX0LRI",
+          "name": "plant5-featured.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/plant5Featuredjpg.png"
+        },
+        {
+          "id": "YzDTlPq_t6nACz",
+          "name": "plant9-featured.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/plant9Featuredjpg.png"
+        },
+        {
+          "id": "wscOmZag_54YGK",
+          "name": "plant6.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/plant6Jpg.png"
+        },
+        {
+          "id": "t9RZ-1ziHHGDik",
+          "name": "plant1.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/plant1Jpg.png"
+        },
+        {
+          "id": "BapkT_oSZUsALN",
+          "name": "plant7.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/plant7Jpg.png"
+        },
+        {
+          "id": "Y5X95tDvn16wtz",
+          "name": "plant5.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/plant5Jpg.png"
+        },
+        {
+          "id": "GHCna01pikt27v",
+          "name": "plant4 (1).jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/plant41Jpg.png"
+        },
+        {
+          "id": "YiWvMu6GJIxaZu",
+          "name": "plant3 (1).jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/plant31Jpg.png"
+        },
+        {
+          "id": "SeXEy1AwzRLS23",
+          "name": "plant9.webp",
+          "filePath": "plasmic/paradosiaki_agiografia/images/plant9Webp.webp"
+        },
+        {
+          "id": "1FKgifHZnE3x-C",
+          "name": "plant2.webp",
+          "filePath": "plasmic/paradosiaki_agiografia/images/plant2Webp.webp"
+        },
+        {
+          "id": "sLwZ7MBgKpETHV",
+          "name": "promo.webp",
+          "filePath": "plasmic/paradosiaki_agiografia/images/promowebp.webp"
+        },
+        {
+          "id": "CVjT-clWoYRj2w",
+          "name": "leaf.svg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/leafsvg.svg"
+        },
+        {
+          "id": "PLS-ICI1hK6rs7",
+          "name": "leaf-light-grey.svg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/leafLightGreysvg.svg"
+        },
+        {
+          "id": "SuJhTxjcpD97GR",
+          "name": "nan_talk.webp",
+          "filePath": "plasmic/paradosiaki_agiografia/images/nanTalkwebp.webp"
+        },
+        {
+          "id": "zBwfWLCue0zM4k",
+          "name": "team.webp",
+          "filePath": "plasmic/paradosiaki_agiografia/images/teamwebp.webp"
+        },
+        {
+          "id": "4KakpQHIayNVky",
+          "name": "header (3).webp",
+          "filePath": "plasmic/paradosiaki_agiografia/images/header3Webp.webp"
+        },
+        {
+          "id": "SF4R5m98mSHYnh",
+          "name": "plant6-lg.webp",
+          "filePath": "plasmic/paradosiaki_agiografia/images/plant6Lgwebp.webp"
+        },
+        {
+          "id": "tkndCUXGFa0wO0",
+          "name": "header (5).jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/header5Jpg.jpg"
+        },
+        {
+          "id": "VOHv6UKZOOV3-i",
+          "name": "header-banner.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/headerBannerjpg.jpg"
+        },
+        {
+          "id": "EkxQnS80h-VMfQ",
+          "name": "header-banner-mobile.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/headerBannerMobilejpg.jpg"
+        },
+        {
+          "id": "m99EeaMM7",
+          "name": "hhhhh.png",
+          "filePath": "plasmic/paradosiaki_agiografia/images/hhhhhpng.png"
+        },
+        {
+          "id": "IXnqJEYnn",
+          "name": "casofri_clean_artist_workshop_of_a_byzantine_hagiographer_plent_ee3dc471-debd-4ba5-ad9e-11eb4cd584fa.png",
+          "filePath": "plasmic/paradosiaki_agiografia/images/casofriCleanArtistWorkshopOfAByzantineHagiographerPlentEe3Dc471Debd4Ba5Ad9E11Eb4Cd584Fapng.png"
+        },
+        {
+          "id": "eAJQZq0cA",
+          "name": "casofri_clean_artist_workshop_of_a_byzantine_hagiographer_plent_5611f255-cab3-4021-8f3e-8bdb9943a189.png",
+          "filePath": "plasmic/paradosiaki_agiografia/images/casofriCleanArtistWorkshopOfAByzantineHagiographerPlent5611F255Cab340218F3E8Bdb9943A189Png.png"
+        },
+        {
+          "id": "2L3teBNax",
+          "name": "εικόνα_Viber_2023-05-28_19-23-32-391.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/εικόναViber20230528192332391Jpg.jpg"
+        },
+        {
+          "id": "ZHOZBQTJ9",
+          "name": "εικόνα_Viber_2023-05-28_19-23-30-365.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/εικόναViber20230528192330365Jpg.jpg"
+        },
+        {
+          "id": "FGOp2KTqb",
+          "name": "εικόνα_Viber_2023-05-28_19-23-32-932.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/εικόναViber20230528192332932Jpg.jpg"
+        },
+        {
+          "id": "1Kzx-uxE9",
+          "name": "εικόνα_Viber_2023-05-28_19-23-15-649.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/εικόναViber20230528192315649Jpg.jpg"
+        },
+        {
+          "id": "rYl0Qrk-o",
+          "name": "εικόνα_Viber_2023-05-28_19-23-15-013.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/εικόναViber20230528192315013Jpg.jpg"
+        },
+        {
+          "id": "AAITJ7-J6",
+          "name": "εικόνα_Viber_2023-05-28_19-22-52-553.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/εικόναViber20230528192252553Jpg.jpg"
+        },
+        {
+          "id": "GpDqcvMYw",
+          "name": "εικόνα_Viber_2023-05-28_19-23-29-511.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/εικόναViber20230528192329511Jpg.jpg"
+        },
+        {
+          "id": "_7mxr-nwl",
+          "name": "εικόνα_Viber_2023-05-28_19-23-30-462.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/εικόναViber20230528192330462Jpg.jpg"
+        },
+        {
+          "id": "S29ybr8ni",
+          "name": "εικόνα_Viber_2023-05-28_19-23-19-388.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/εικόναViber20230528192319388Jpg.jpg"
+        },
+        {
+          "id": "UwCBLXZh_",
+          "name": "εικόνα_Viber_2023-05-28_19-23-27-087.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/εικόναViber20230528192327087Jpg.jpg"
+        },
+        {
+          "id": "eT6CZJx2v",
+          "name": "εικόνα_Viber_2023-05-28_19-27-44-264.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/εικόναViber20230528192744264Jpg.jpg"
+        },
+        {
+          "id": "Bgs5MOr5e",
+          "name": "εικόνα_Viber_2023-05-28_19-23-24-719.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/εικόναViber20230528192324719Jpg.jpg"
+        },
+        {
+          "id": "45GOB19rq",
+          "name": "εικόνα_Viber_2023-05-28_19-23-25-218.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/εικόναViber20230528192325218Jpg.jpg"
+        },
+        {
+          "id": "U-wtWdbqw",
+          "name": "image0 (5).jpeg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/image05Jpeg.jpg"
+        },
+        {
+          "id": "1QFQYDkR4",
+          "name": "εικόνα_Viber_2023-05-28_19-23-35-684.jpg",
+          "filePath": "plasmic/paradosiaki_agiografia/images/εικόναViber20230528192335684Jpg.jpg"
+        },
+        {
+          "id": "PKImJjd9q",
+          "name": "panos.png",
+          "filePath": "plasmic/paradosiaki_agiografia/images/panospng.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "YtOTb2H_vP",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "Z72MqQeagS",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "gW35LCmK5FYODz",
+        "name": "Screen",
+        "projectId": "poSKmt1KMDoYUF6h3Y78GP",
+        "contextFilePath": "plasmic/paradosiaki_agiografia/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.289",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.289/dist/plasmic.schema.json"
+}

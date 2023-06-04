@@ -1,0 +1,220 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 200px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 8px;
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.freeBox > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-left: calc(0px - 5px);
+  width: calc(100% + 5px);
+}
+.freeBox > :global(.__wab_flex-container) > *,
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox > :global(.__wab_flex-container) > picture > img,
+.freeBox
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 5px;
+}
+.svg__o2Atb {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(239, 206, 74);
+  flex-shrink: 0;
+}
+.svgstars_zero__o2Atblawzr {
+  display: none;
+}
+.svg__qGZmh {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(239, 206, 74);
+  flex-shrink: 0;
+  display: none;
+}
+.svgstars_zero__qGZmhlawzr {
+  display: none;
+}
+.svgstars_one__qGZmhlQjqS {
+  display: none;
+}
+.svg__mZjo9 {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(239, 206, 74);
+  flex-shrink: 0;
+  display: none;
+}
+.svgstars_zero__mZjo9Lawzr {
+  display: none;
+}
+.svgstars_one__mZjo9LQjqS {
+  display: none;
+}
+.svgstars_two__mZjo9Tjodu {
+  display: none;
+}
+.svg__ggiuc {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(239, 206, 74);
+  flex-shrink: 0;
+  display: none;
+}
+.svgstars_zero__ggiuclawzr {
+  display: none;
+}
+.svgstars_one__ggiuclQjqS {
+  display: none;
+}
+.svgstars_two__ggiuctjodu {
+  display: none;
+}
+.svgstars_three__ggiucGVKm {
+  display: none;
+}
+.svg__d5EPt {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(239, 206, 74);
+  flex-shrink: 0;
+  display: none;
+}
+.svgstars_zero__d5EPTlawzr {
+  display: none;
+}
+.svgstars_one__d5EPTlQjqS {
+  display: none;
+}
+.svgstars_two__d5EPTtjodu {
+  display: none;
+}
+.svgstars_three__d5EPtgVKm {
+  display: none;
+}
+.svgstars_four__d5EPTkuD9H {
+  display: none;
+}
+.svg__j5Xgq {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(169, 169, 169);
+  flex-shrink: 0;
+  display: none;
+}
+.svgstars_one__j5XgQlQjqS {
+  display: none;
+}
+.svgstars_two__j5XgQtjodu {
+  display: none;
+}
+.svgstars_three__j5XgqgVKm {
+  display: none;
+}
+.svgstars_four__j5XgQkuD9H {
+  display: none;
+}
+.svgstars_five__j5XgQmdzsP {
+  display: none;
+}
+.svg__aixl {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(169, 169, 169);
+  flex-shrink: 0;
+}
+.svgstars_two__aixlTjodu {
+  display: none;
+}
+.svgstars_three__aixlGVKm {
+  display: none;
+}
+.svgstars_four__aixlKuD9H {
+  display: none;
+}
+.svgstars_five__aixlMdzsP {
+  display: none;
+}
+.svg___3W7Q1 {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(169, 169, 169);
+  flex-shrink: 0;
+}
+.svgstars_three___3W7Q1GVKm {
+  display: none;
+}
+.svgstars_four___3W7Q1KuD9H {
+  display: none;
+}
+.svgstars_five___3W7Q1MdzsP {
+  display: none;
+}
+.svg___9T9PB {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(169, 169, 169);
+  flex-shrink: 0;
+}
+.svgstars_four___9T9PBkuD9H {
+  display: none;
+}
+.svgstars_five___9T9PBmdzsP {
+  display: none;
+}
+.svg___0WNsH {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(169, 169, 169);
+  flex-shrink: 0;
+}
+.svgstars_five___0WNsHmdzsP {
+  display: none;
+}
+.slotTargetNumReviews {
+  font-size: 14px;
+  color: var(--token-XfbaVrNfhmJh5H);
+}
